@@ -1,10 +1,54 @@
-table,
-thead,
-tbody,
-tfoot,
-tr,
-td,
-th,
-caption {
-  border: 1px solid #000;
+a {
+   text-decoration: none;
+}
+.wrapper {
+   height: 100%;
+   overflow: hidden;
+   min-height: 100%;
+   padding: 50px;
+}
+
+.main {
+   display: flex;
+   justify-content: space-between;
+}
+
+.block {
+   /* text-align: center; */
+}
+
+.block__row {
+   display: inline-flex;   
+   border: 2px solid #e0d145;
+   margin: 0px 0px 20px 0px;
+}
+
+.block__column {
+   border: 2px solid #a245e0;
+}
+
+.block__item {
+   background-color: #6ebb64;
+   padding: 50px;
+   font-size: 50px;
+   color: white;
+   font-weight: 700;
+}
+
+img {
+   width: 300px;
+}
+
+.menu__item li {
+   margin-right: 100px;
+   display: inline;
+   list-style-type: none ;
+}
+
+.menu__item ul {
+   text-align: center;
+}
+
+.right-bar {
+   display: inline;
 }
